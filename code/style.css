@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela', sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/photo-1630165695908-e68c9f2e8a29.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.hidden {
+    display: none;
+}
+.btn {
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+}
+.show-btn {
+    background: url('../img/images.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 18%;
+    margin-left: 5%;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 600px;
+    width: 100%;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+    padding: 15px;
+    z-index: 100;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.close-btn {
+    font-size: 20px;
+}
+.modal-title {
+    margin-bottom: 15px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+}
