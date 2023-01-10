@@ -9,7 +9,7 @@
 body {
   font-family: 'Varela', sans-serif;
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/photo-1630165695908-e68c9f2e8a29.jpeg');
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./img/photo-1630165695908-e68c9f2e8a29.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 .show-btn {
-    background: url('../img/images.png');
+    background: url('./img/images.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
